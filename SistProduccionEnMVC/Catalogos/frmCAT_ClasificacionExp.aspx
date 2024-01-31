@@ -9,10 +9,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body style="height: 541px; background-color: black">
-    <form id="form1" runat="server" style="text-align: right; height: 538px; width: 1149px; font-size: 36px;" submitdisabledcontrols="False">
-        <p style="text-align: center">
-            &nbsp;</p>
+<body style="height: 525px; background-color: black">
+    <form id="form1" runat="server" style="text-align: right; height: 100%; width: 100%; font-size: 36px;" submitdisabledcontrols="False">
         <p style="text-align: center">
             &nbsp;</p>
         <p style="text-align: center; font-size: 72px; color: #FFFFFF;">
@@ -23,11 +21,11 @@
             &nbsp;</p>
         <p style="text-align: center">
             &nbsp;</p>
-        <p style="text-align: right; font-weight: 36; padding-right: 20px;">
+        <div style="text-align: right; padding-right: 20px;">
             <asp:Button ID="btn_nuevo" runat="server" BackColor="DeepSkyBlue" Font-Size="36pt" ForeColor="White" Height="137px" Text="Nuevo" Width="286px" />
-            <asp:Button ID="btn_guardar" runat="server" BackColor="LimeGreen" Font-Size="36pt" ForeColor="White" Height="137px" OnClick="Button2_Click" Text="Guardar" Width="286px" />
+            <asp:Button ID="btn_guardar" runat="server" BackColor="LimeGreen" Font-Size="36pt" ForeColor="White" Height="137px" Text="Guardar" Width="286px" />
             <asp:Button ID="btn_cancelar" runat="server" BackColor="Red" Font-Size="36pt" ForeColor="White" Height="137px" Text="Cancelar" Width="286px" />
-        </p>
+        </div>
     </form>
 </body>
 </html>
