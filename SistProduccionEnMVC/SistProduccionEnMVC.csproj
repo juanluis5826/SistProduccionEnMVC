@@ -113,6 +113,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Catalogos\frmCAT_ClasificacionExp.aspx" />
+    <Content Include="Catalogos\frmCAT_Especies.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -182,6 +183,13 @@
     </Compile>
     <Compile Include="Catalogos\frmCAT_ClasificacionExp.aspx.designer.cs">
       <DependentUpon>frmCAT_ClasificacionExp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Especies.aspx.cs">
+      <DependentUpon>frmCAT_Especies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Especies.aspx.designer.cs">
+      <DependentUpon>frmCAT_Especies.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
