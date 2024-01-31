@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmCAT_Especies.aspx.cs" Inherits="SistProduccionEnMVC.Catalogos.frmCAT_Especies" %>
 
+<%@ Register assembly="DevExpress.Web.Bootstrap.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.Bootstrap" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,19 +13,23 @@
 <body style="background-color:black; height: 634px;">
     <form id="form1" runat="server">
         <div style="text-align: center; padding-top: 100px;">
-            <label style="font-size: 72px; color: #FFFFFF; font-weight: bold">Nombre </label>
-            &nbsp;<input type="text" style="height: 30px; width: 300px"/><br />
+
+            <div>
+                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:440px">Nombre</label><br />
+                &nbsp;<input type="text" style="height: 45px; width: 700px; font-size:72px"/><br />
+            </div>
+
             <br />
             <br />
             <br />
 
-            <label style="font-size: 72px; font-weight: bold; color: #FFFFFF">Status&nbsp;&nbsp;&nbsp; </label>
-            &nbsp;<select class="form-select" aria-label="Default select example" disabled style="width: 300px; height: 30px">
-                      <option selected>Seleccione una opcion</option>
-                      <option value="1"></option>
-                      <option value="2"></option>
-                      <option value="3"></option>
-                    </select><br />
+            <div>
+                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI';margin-right:510px">Status</label><br />
+                &nbsp;
+                <select id="Select1" style="font-size:45px; width:715px" name="D1">
+                    <option></option>
+                </select>
+            </div>
 
             <div style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
                 <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 286px; height: 137px; background-color: #00BFFF">Nuevo</button>
