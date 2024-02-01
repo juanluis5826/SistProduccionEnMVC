@@ -22,10 +22,8 @@
 
             <div>
                 <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI';margin-right:440px">Nombre</label><br />
-                &nbsp;
-                <select id="Select1" style="font-size:45px; width:715px" name="D1">
-                    <option></option>
-                </select>
+                &nbsp;<input type="text" style="height: 45px; width: 700px; font-size:72px"/><br />
+                
             </div>
 
             <div style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
