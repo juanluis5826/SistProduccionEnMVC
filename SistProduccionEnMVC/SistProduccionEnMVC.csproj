@@ -115,8 +115,10 @@
     <Content Include="About.aspx" />
     <Content Include="Catalogos\frmCAT_ClasificacionExp.aspx" />
     <Content Include="Catalogos\frmCAT_Especies.aspx" />
+    <Content Include="Catalogos\frmCAT_Familias.aspx" />
     <Content Include="Catalogos\frmCAT_INSUMOS.aspx" />
     <Content Include="Catalogos\frmCAT_TipoGanado.aspx" />
+    <Content Include="Catalogos\frmCAT_TiposVehiculo.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -194,6 +196,13 @@
     <Compile Include="Catalogos\frmCAT_Especies.aspx.designer.cs">
       <DependentUpon>frmCAT_Especies.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_Familias.aspx.cs">
+      <DependentUpon>frmCAT_Familias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Familias.aspx.designer.cs">
+      <DependentUpon>frmCAT_Familias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_INSUMOS.aspx.cs">
       <DependentUpon>frmCAT_INSUMOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -207,6 +216,13 @@
     </Compile>
     <Compile Include="Catalogos\frmCAT_TipoGanado.aspx.designer.cs">
       <DependentUpon>frmCAT_TipoGanado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_TiposVehiculo.aspx.cs">
+      <DependentUpon>frmCAT_TiposVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_TiposVehiculo.aspx.designer.cs">
+      <DependentUpon>frmCAT_TiposVehiculo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

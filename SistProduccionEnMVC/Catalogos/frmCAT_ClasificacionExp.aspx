@@ -8,19 +8,22 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        #Text1 {
+            height: 81px;
+            width: 822px;
+        }
+    </style>
 </head>
 <body style="height: 525px; background-color: black">
     <form id="form1" runat="server" style="text-align: right; height: 100%; width: 100%; font-size: 36px;" submitdisabledcontrols="False">
-        <p style="text-align: center">
-            &nbsp;</p>
+        <p style="text-align: center; font-size: 72px; color: #FFFFFF; margin-right: 370px">
+            <asp:Label ID="Label1" runat="server" Font-Names="Segoe UI" Font-Size="72pt" Text="Nombre:"></asp:Label>
+            </p>
         <p style="text-align: center; font-size: 72px; color: #FFFFFF;">
-            Nombre:
-            <asp:TextBox ID="txt_nombre" runat="server" Font-Size="72pt" Height="77px" Width="607px"></asp:TextBox>
-        </p>
-        <p style="text-align: center">
-            &nbsp;</p>
-        <p style="text-align: center">
-            &nbsp;</p>
+            <input id="Text1" type="text" /></p>
+        <br />
+        <br />
         <div style="text-align: right; padding-right: 20px;">
             <asp:Button ID="btn_nuevo" runat="server" BackColor="DeepSkyBlue" Font-Size="36pt" ForeColor="White" Height="137px" Text="Nuevo" Width="286px" />
             <asp:Button ID="btn_guardar" runat="server" BackColor="LimeGreen" Font-Size="36pt" ForeColor="White" Height="137px" Text="Guardar" Width="286px" />
