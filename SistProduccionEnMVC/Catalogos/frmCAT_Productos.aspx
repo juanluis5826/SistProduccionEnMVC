@@ -61,6 +61,9 @@
                         <select style="width: 100%; padding: 8px;font-size:45px;" id="select6" name="select6">
                             <option></option>
                         </select>
+
+                        <label style="display: block; margin-top: 10px; margin-bottom: 5px;font-size: 72px; color: #FFFFFF;" for="select3">Días Caducidad</label>
+                        <input type="number"  step="1" style="height: 45px; width: 700px; font-size:72px"/>
                     </fieldset>
                 </div>
 
