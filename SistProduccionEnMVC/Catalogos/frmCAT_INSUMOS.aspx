@@ -9,7 +9,7 @@
 </head>
 <body style="background-color:black; height: 634px;">
     <form id="form1" runat="server">
-        <div style="text-align: center; padding-top: 100px;">
+        <div style="text-align: center;margin: 15px 34px 15px 34px;">
 
             <div>
                 <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:640px">ID</label><br />
@@ -27,8 +27,8 @@
             </div>
 
             <div style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
-                <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 286px; height: 137px; background-color: #00BFFF; font-family:'Segoe UI'">Nuevo</button>
-                <button type="button" style="font-size: 36px; font-weight: bold; background-color: #32CD32; width: 286px; height: 137px; color: #FFFFFF;font-family:'Segoe UI' margin-right: 10px; margin-left: 10px;">Guardar</button>
+                <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 180px; height: 110px; background-color: #00BFFF; border-radius:15px">Nuevo</button>
+                <button type="button" style="font-size: 36px; font-weight: bold; background-color: #32CD32; width: 180px; height: 110px; color: #FFFFFF; margin-right: 10px; margin-left: 10px; border-radius:15px">Guardar</button>
             </div>
         </div>
     </form>
