@@ -114,10 +114,14 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Catalogos\frmCAT_ClasificacionExp.aspx" />
+    <Content Include="Catalogos\frmCAT_Clientes.aspx" />
     <Content Include="Catalogos\frmCAT_Especies.aspx" />
     <Content Include="Catalogos\frmCAT_Familias.aspx" />
+    <Content Include="Catalogos\frmCAT_IEPS.aspx" />
     <Content Include="Catalogos\frmCAT_INSUMOS.aspx" />
+    <Content Include="Catalogos\frmCAT_MarcasVehiculo.aspx" />
     <Content Include="Catalogos\frmCAT_Productos.aspx" />
+    <Content Include="Catalogos\frmCAT_SubFamilias.aspx" />
     <Content Include="Catalogos\frmCAT_TipoGanado.aspx" />
     <Content Include="Catalogos\frmCAT_TiposVehiculo.aspx" />
     <Content Include="Contact.aspx" />
@@ -190,6 +194,13 @@
     <Compile Include="Catalogos\frmCAT_ClasificacionExp.aspx.designer.cs">
       <DependentUpon>frmCAT_ClasificacionExp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_Clientes.aspx.cs">
+      <DependentUpon>frmCAT_Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_Clientes.aspx.designer.cs">
+      <DependentUpon>frmCAT_Clientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_Especies.aspx.cs">
       <DependentUpon>frmCAT_Especies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,6 +215,13 @@
     <Compile Include="Catalogos\frmCAT_Familias.aspx.designer.cs">
       <DependentUpon>frmCAT_Familias.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_IEPS.aspx.cs">
+      <DependentUpon>frmCAT_IEPS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_IEPS.aspx.designer.cs">
+      <DependentUpon>frmCAT_IEPS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_INSUMOS.aspx.cs">
       <DependentUpon>frmCAT_INSUMOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -211,12 +229,26 @@
     <Compile Include="Catalogos\frmCAT_INSUMOS.aspx.designer.cs">
       <DependentUpon>frmCAT_INSUMOS.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\frmCAT_MarcasVehiculo.aspx.cs">
+      <DependentUpon>frmCAT_MarcasVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_MarcasVehiculo.aspx.designer.cs">
+      <DependentUpon>frmCAT_MarcasVehiculo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\frmCAT_Productos.aspx.cs">
       <DependentUpon>frmCAT_Productos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Catalogos\frmCAT_Productos.aspx.designer.cs">
       <DependentUpon>frmCAT_Productos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_SubFamilias.aspx.cs">
+      <DependentUpon>frmCAT_SubFamilias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmCAT_SubFamilias.aspx.designer.cs">
+      <DependentUpon>frmCAT_SubFamilias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Catalogos\frmCAT_TipoGanado.aspx.cs">
       <DependentUpon>frmCAT_TipoGanado.aspx</DependentUpon>
