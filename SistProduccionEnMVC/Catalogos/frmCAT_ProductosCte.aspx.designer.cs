@@ -11,7 +11,7 @@ namespace SistProduccionEnMVC.Catalogos
 {
 
 
-    public partial class frmCAT_ClasificacionExp
+    public partial class frmCAT_ProductosCte
     {
 
         /// <summary>

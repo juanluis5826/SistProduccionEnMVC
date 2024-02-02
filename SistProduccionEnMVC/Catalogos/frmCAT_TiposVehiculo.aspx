@@ -6,43 +6,31 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        #Text1 {
-            height: 117px;
-            width: 811px;
-        }
-        #Text2 {
-            height: 114px;
-            width: 804px;
-            margin-right: 22px;
-        }
-        #Button1 {}
-    </style>
 </head>
 <body style="background-color: black">
-    <form id="form1" runat="server" >
-        <div style="text-align: center">
-            <div style="margin-right: 370px">
-            <asp:Label ID="Label1" runat="server" Font-Names="Segoe UI" Font-Size="72pt" Text="Nombre: " ForeColor="White"></asp:Label>
+    <form id="form1" runat="server">
+        <div style="text-align: center; padding-top: 100px;">
+
+            <div>
+                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:430px">Nombre:</label><br />
+                <input type="text" style="height: 45px; width: 700px; font-size:72px"/><br />
             </div>
-            <br />
-            <input id="Text1" type="text" /><br />
-            <br />
+
             <br />
             <br />
-            <div style="margin-right: 450px">
-            <asp:Label ID="Label2" runat="server" Font-Names="Segoe UI" Font-Size="72pt" ForeColor="White" Text="Estatus: "></asp:Label>
+            <br />
+
+            <div>
+                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI';margin-right:440px">Estatus:</label><br />
+                &nbsp;<input type="text" style="height: 45px; width: 700px; font-size:72px"/><br />
+                
             </div>
-            <br />
-            <input id="Text2" type="text" /><br />
-            <br />
-            <br />
-            <div style="text-align: right; padding-right: 20px">
-            <asp:Button ID="Button1" runat="server" BackColor="LimeGreen" Font-Names="Segoe UI" Font-Size="36pt" ForeColor="White" Height="137px" Text="Guardar" Width="286px" />
-            <asp:Button ID="Button2" runat="server" BackColor="DarkOrange" Font-Names="Segoe UI" Font-Size="36pt" ForeColor="White" Height="137px" Text="Editar" Width="286px" />
-            <asp:Button ID="Button3" runat="server" BackColor="Red" Font-Names="Segoe UI" Font-Size="36pt" ForeColor="White" Height="137px" Text="Cancelar" Width="286px" />
+
+            <div style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
+                <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 180px; height: 110px; background-color: #00BFFF; border-radius: 15px;">Nuevo</button>
+                <button type="button" style="font-size: 36px; font-weight: bold; background-color: #32CD32; width: 180px; height: 110px; color: #FFFFFF; margin-right: 10px; margin-left: 10px; border-radius: 15px;">Guardar</button>
+                <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; background-color: #FF8C00; width: 180px; height: 110px; margin-right: 10px; border-radius: 15px;">Editar</button>
             </div>
-            <br />
         </div>
     </form>
 </body>

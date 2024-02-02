@@ -8,26 +8,22 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        #Text1 {
-            height: 81px;
-            width: 822px;
-        }
-    </style>
 </head>
 <body style="height: 525px; background-color: black">
-    <form id="form1" runat="server" style="text-align: right; height: 100%; width: 100%; font-size: 36px;" submitdisabledcontrols="False">
-        <p style="text-align: center; font-size: 72px; color: #FFFFFF; margin-right: 370px">
-            <asp:Label ID="Label1" runat="server" Font-Names="Segoe UI" Font-Size="72pt" Text="Nombre:"></asp:Label>
-            </p>
-        <p style="text-align: center; font-size: 72px; color: #FFFFFF;">
-            <input id="Text1" type="text" /></p>
-        <br />
-        <br />
-        <div style="text-align: right; padding-right: 20px;">
-            <asp:Button ID="btn_nuevo" runat="server" BackColor="DeepSkyBlue" Font-Size="36pt" ForeColor="White" Height="137px" Text="Nuevo" Width="286px" />
-            <asp:Button ID="btn_guardar" runat="server" BackColor="LimeGreen" Font-Size="36pt" ForeColor="White" Height="137px" Text="Guardar" Width="286px" />
-            <asp:Button ID="btn_cancelar" runat="server" BackColor="Red" Font-Size="36pt" ForeColor="White" Height="137px" Text="Cancelar" Width="286px" />
+    <form id="form1" runat="server">
+        <div style="text-align: center; padding-top: 100px;">
+            <br />
+            <div>
+                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI';margin-right:440px">Nombre</label><br />
+                &nbsp;<input type="text" style="height: 75px; width: 700px; font-size:72px"/><br />
+                
+            </div>
+
+            <div style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
+                <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 180px; height: 110px; background-color: #00BFFF; border-radius: 15px;">Nuevo</button>
+                <button type="button" style="font-size: 36px; font-weight: bold; background-color: #32CD32; width: 180px; height: 110px; color: #FFFFFF; margin-right: 10px; margin-left: 10px; border-radius: 15px;">Guardar</button>
+                <button type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; background-color: #FF8C00; width: 180px; height: 110px; margin-right: 10px; border-radius: 15px;">Editar</button>
+            </div>
         </div>
     </form>
 </body>
