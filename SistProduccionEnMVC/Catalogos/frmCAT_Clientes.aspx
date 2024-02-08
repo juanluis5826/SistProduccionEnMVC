@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Menú HTML</title>
+    <link href="../Content/styles.css" rel="stylesheet" />
   <style>
     /* Estilo para el label */
     label {
       display: inline-block;
       padding-right:250px;
-      width: 100px;
+      width:100px;
       text-align: right;
     }
 
     /* Estilo para el input */
     input {
+        margin-left:0px;
       height: 45px;
-          width: 260px;
+          width: 883px;
       }
   </style>
 </head>
@@ -28,28 +29,24 @@
             <div class="form-group">
                 <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Marca:</label>
                 <input type="text" id="marca" name="marca">
-                <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:30px">Tipo:</label>
+                <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'">Tipo:</label>
                 <input type="text" id="tipo" name="tipo">
-            </div>
-            <div class="form-group">
+
                 <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Nombre:</label>
                 <input type="text" style=" font-size:72px"/>
-                <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:30px">Email:</label>
+                <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'">Email:</label>
                 <input type="text" style=" font-size:72px"/>
-                </div>
-            <div class="form-group">
+
                 <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Dirección:</label>
                 <input type="text" style="font-size:72px"/>
-                <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:30px">Celular:</label>
-                <input type="text" style="font-size:72px"/>
-            </div>
-            <div class="form-group">
+                <label class="espacio" style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'">Celular:</label>
+                <input type="text" style="font-size:72px"//>
+
                 <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Colonia:</label>
                 <input type="text" style="font-size:72px"/>
-                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:30px">RFC:</label>
+                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'">RFC:</label>
                 <input type="text" style="font-size:72px"/>
-            </div>
-            <div class="form-group">
+
                 <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Municipio:</label>
                 <input type="text" style="font-size:72px"/>
                 <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Estatus:</label>

@@ -5,6 +5,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link href="../Content/styles.css" rel="stylesheet" />
     <style type="text/css">
         #Select1 {
             width: 505px;
