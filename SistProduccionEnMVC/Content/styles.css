@@ -59,6 +59,7 @@ option {
     width: 100%;
     padding: 0.375rem 2.25rem 0.375rem 0.75rem;
     font-size: 36px;
+    line-height: 1.5;
     color: #ffffff;
     background-color: #000000;
     border: 1px solid #ffffff;
@@ -69,4 +70,6 @@ option {
 .form-select:disabled {
     background-color: #333333;
 }
+
+
 

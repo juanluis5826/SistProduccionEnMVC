@@ -23,7 +23,7 @@
             </div>
 
             <div style="margin-top: 50px;">
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="1462px">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="100%">
                     <AlternatingRowStyle BackColor="White" />
                     <Columns>
                         <asp:BoundField DataField="ID" HeaderText="ID_INSUMO" ReadOnly="True" SortExpression="ID_INSUMO" />
