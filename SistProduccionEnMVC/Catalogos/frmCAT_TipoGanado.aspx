@@ -5,61 +5,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link href="../Content/styles.css" rel="stylesheet" />
+
+    <link href="../src/style.css" rel="stylesheet" />
+    <link href="../src/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/styles.css" rel="stylesheet" />
     <title></title>
 </head>
 <body style="background-color:black; height: 634px;">
-    <form id="form1" runat="server">
-        <div style="padding: 0px; margin: 15px 34px 15px 34px; text-align: center;">
+    <div class="d-flex justify-content-center align-items-center vh-100" style="margin-top: 5rem;">
+        <form id="form2" runat="server">
 
-            <div>
-                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:600px">Especie</label><br />
-                &nbsp;<input class="form-control" type="text" style="height: 45px; width: 100px;"/>&nbsp;&nbsp;&nbsp;&nbsp; <input class="form-control" type="text" style="height: 45px; width: 690px;"/><br />
+            <div class="card mb-3 shadow  mb-5 text-secondary fw-bold" style="width: 41rem; border-radius: 1rem; background-color:black; border: 1px solid #ffffff">
+                
+                <div class="card-header text-center">
+                    <h4 class="card-title fw-bold py-2" style="font-size:72px;color:white;">Tipo de ganado</h4>
+                </div>
+            
+                <div class="card-body">
+                    <div class="row">
+                        <label class="col-form-label">Especie</label>
+                        <div class="col">
+                            <input type="text" class="form-control" name="txtnombreinvitado2" id="txtnombreinvitado2" placeholder="Nombre del invitado" aria-describedby="txtnombreinvitado2"/>
+                        </div>
+                        <div class="col">
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control t-36" name="txtnombreinvitado" id="txtnombreinvitado" placeholder="Nombre del invitado" aria-describedby="txtnombreinvitado"/>
+                                <button class="btn btn-info text-white shadow-sm rounded-end t-36" data-bs-toggle="modal" data-bs-target="#ModalProvedor" data-bs-placement="top" title="Agregar proveedor" type="button" >Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI';margin-right:320px">Tipo de Ganado</label><br />
-                &nbsp;
-                <input class="form-control" type="text" style="height: 45px; width: 100px;"/>&nbsp;&nbsp;&nbsp;&nbsp; <input class="form-control" type="text" style="height: 45px; width: 690px;"/><br />
-            </div>
-
-            <div>
-                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI';margin-right:630px">Status</label><br />
-                &nbsp;
-                <select class="form-select" id="Select1" disabled style="width:825px" name="D1">
-                    <option selected></option>
-                    <option>Activo</option>
-                    <option>Cancelado</option>
-                </select>
-            </div>
-
-            <div style="margin-top: 50px;">
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="100%">
-                    <AlternatingRowStyle BackColor="White" />
-                    <Columns>
-                        <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" SortExpression="ID" />
-                        <asp:BoundField DataField="NOMBRE" HeaderText="NOMBRE"  ReadOnly="True" SortExpression="NOMBRE" />
-                        <asp:BoundField DataField="ESTATUS" HeaderText="ESTATUS" ReadOnly="True" SortExpression="ESTATUS" />
-                    </Columns>
-                    <EditRowStyle BackColor="#2461BF" />
-                    <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                    <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                    <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-                    <RowStyle BackColor="#EFF3FB" />
-                    <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-                    <SortedAscendingCellStyle BackColor="#F5F7FB" />
-                    <SortedAscendingHeaderStyle BackColor="#6D95E1" />
-                    <SortedDescendingCellStyle BackColor="#E9EBEF" />
-                    <SortedDescendingHeaderStyle BackColor="#4870BE" />
-                </asp:GridView>
-             </div>
-
-             <div style="text-align: right; vertical-align: bottom; margin-top: 150px; height: 172px; padding-right: 20px;">
-                <button class="btn-nuevo" type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 180px; height: 110px; border-radius:15px">Nuevo</button>
-                <button class="btn-guardar" type="button" style="font-size: 36px; font-weight: bold;  width: 180px; height: 110px; color: #FFFFFF; margin-right: 10px; margin-left: 10px; border-radius:15px">Guardar</button>
-                <button class="btn-editar" type="button" style="font-size: 36px; font-weight: bold; color: #FFFFFF; width: 180px; height: 110px; margin-right: 10px; border-radius:15px">Editar</button>
-            </div>
-        </div>
-    </form>
+        </form>
+    </div>
+        
 </body>
 </html>
