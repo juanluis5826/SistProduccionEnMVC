@@ -12,11 +12,11 @@
 
     <title>Tipo de Ganado</title>
 </head>
-<body style="background-color:black; height: 634px;">
+<body style="background-color:black;">
     <div class="d-flex justify-content-center align-items-center vh-100" style="margin-top: 5rem;">
         <form id="form2" runat="server">
 
-            <div class="card mb-3 shadow mb-5 fw-bold card-a">
+            <div class="card mb-3 shadow mb-5 fw-bold card-a mt-6">
                 
                 <div class="card-header text-center">
                     <h4 class="card-title fw-bold py-2 t-72">Tipo de Ganado</h4>
@@ -124,7 +124,7 @@
                         <div class="col-6 col-sm-4"></div>
                         <div class="col">
                             <button type="button" class="btn-nuevo t-36 fw-bold" >Nuevo</button>
-                            <button type="button" class="btn-guardar t-36 fw-bold" >Guardar</button>
+                            <button type="button" class="btn-guardar t-36 fw-bold mx-1" >Guardar</button>
                             <button type="button" class="btn-editar t-36 fw-bold" >Editar</button>
                         </div>
                     </div>

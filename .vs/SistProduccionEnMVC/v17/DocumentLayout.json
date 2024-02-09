@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_tipoganado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|c:\\users\\juanl\\source\\repos\\sistproduccionenmvc\\sistproduccionenmvc\\catalogos\\frmcat_especies.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_especies.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\sistproduccionenmvc\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\sistproduccionenmvc\\catalogos\\frmcat_especies.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_especies.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\sistproduccionenmvc\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Content\\styles.css",
               "RelativeDocumentMoniker": "SistProduccionEnMVC\\Content\\styles.css",
               "ToolTip": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Content\\styles.css",
               "RelativeToolTip": "SistProduccionEnMVC\\Content\\styles.css",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowDEAAAAUAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-02-09T20:20:48.986Z",
               "IsPinned": true,
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmCAT_Especies.aspx",
               "DocumentMoniker": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_Especies.aspx",
               "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_Especies.aspx",
