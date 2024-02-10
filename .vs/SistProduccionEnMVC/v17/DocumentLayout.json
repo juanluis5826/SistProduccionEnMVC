@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|c:\\users\\juanl\\source\\repos\\sistproduccionenmvc\\sistproduccionenmvc\\catalogos\\frmcat_tipoganado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|c:\\users\\isaac\\source\\repos\\sistproduccionenmvc\\sistproduccionenmvc\\catalogos\\frmcat_familias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_familias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|c:\\users\\isaac\\source\\repos\\sistproduccionenmvc\\sistproduccionenmvc\\catalogos\\frmcat_clasificacionexp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_clasificacionexp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|c:\\users\\isaac\\source\\repos\\sistproduccionenmvc\\sistproduccionenmvc\\catalogos\\frmcat_tiposvehiculo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_tiposvehiculo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|c:\\users\\isaac\\source\\repos\\sistproduccionenmvc\\sistproduccionenmvc\\catalogos\\frmcat_tipoganado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_tipoganado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\sistproduccionenmvc\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\sistproduccionenmvc\\catalogos\\frmcat_especies.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\catalogos\\frmcat_especies.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\sistproduccionenmvc\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B59CC8E5-6052-4DFA-8373-6D8C9ED9EB39}|SistProduccionEnMVC\\SistProduccionEnMVC.csproj|solutionrelative:sistproduccionenmvc\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +26,58 @@
       "DocumentGroups": [
         {
           "DockedHeight": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Content\\styles.css",
-              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Content\\styles.css",
-              "ToolTip": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Content\\styles.css",
-              "RelativeToolTip": "SistProduccionEnMVC\\Content\\styles.css",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowCMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-09T20:20:48.986Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Content\\bootstrap.css",
-              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Content\\bootstrap.css",
-              "ToolTip": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Content\\bootstrap.css",
-              "RelativeToolTip": "SistProduccionEnMVC\\Content\\bootstrap.css",
-              "ViewState": "AQIAAJEUAAAAAAAAAAAcwJYUAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-09T20:52:13.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCAT_TipoGanado.aspx",
-              "DocumentMoniker": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
-              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
-              "ToolTip": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
-              "RelativeToolTip": "SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
+              "Title": "frmCAT_Familias.aspx",
+              "DocumentMoniker": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_Familias.aspx",
+              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_Familias.aspx",
+              "ToolTip": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_Familias.aspx",
+              "RelativeToolTip": "SistProduccionEnMVC\\Catalogos\\frmCAT_Familias.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-02-09T20:15:42.572Z",
+              "WhenOpened": "2024-02-10T00:23:25.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCAT_ClasificacionExp.aspx",
+              "DocumentMoniker": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_ClasificacionExp.aspx",
+              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_ClasificacionExp.aspx",
+              "ToolTip": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_ClasificacionExp.aspx",
+              "RelativeToolTip": "SistProduccionEnMVC\\Catalogos\\frmCAT_ClasificacionExp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-10T00:20:56.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmCAT_Especies.aspx",
-              "DocumentMoniker": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_Especies.aspx",
-              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_Especies.aspx",
-              "ToolTip": "C:\\Users\\juanl\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_Especies.aspx",
-              "RelativeToolTip": "SistProduccionEnMVC\\Catalogos\\frmCAT_Especies.aspx",
+              "Title": "frmCAT_TiposVehiculo.aspx",
+              "DocumentMoniker": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_TiposVehiculo.aspx",
+              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_TiposVehiculo.aspx",
+              "ToolTip": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_TiposVehiculo.aspx",
+              "RelativeToolTip": "SistProduccionEnMVC\\Catalogos\\frmCAT_TiposVehiculo.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-02-09T22:21:46.427Z",
+              "WhenOpened": "2024-02-10T00:20:41.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmCAT_TipoGanado.aspx",
+              "DocumentMoniker": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
+              "RelativeDocumentMoniker": "SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
+              "ToolTip": "C:\\Users\\isaac\\source\\repos\\SistProduccionEnMVC\\SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
+              "RelativeToolTip": "SistProduccionEnMVC\\Catalogos\\frmCAT_TipoGanado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-09T23:51:00.807Z",
               "EditorCaption": ""
             }
           ]
