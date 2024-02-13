@@ -1,70 +1,135 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmCAT_SubFamilias.aspx.cs"aInherits="SistProduccionEnMVC.Catalogos.frmCAT_SubFamilias" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmCAT_SubFamilias.aspx.cs" aInherits="SistProduccionEnMVC.Catalogos.frmCAT_SubFamilias" %>
 
-    <!DOCTYPE html>
-<script runat="server">
-
-    protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-</script>
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/styles.css" rel="stylesheet" />
+    <link href="../Content/styles.css" rel="stylesheet" />
+    <script src="../Content/bootstrap.bundle.min.js"></script>
 
-    <head runat="server">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title></title>
-        <style type="text/css">
-            .alineado {
-                margin-left: 300px;
-            }
+    <title>Tipo de Ganado</title>
+</head>
+<body style="background-color: black;">
+    <div class="d-flex justify-content-center align-items-center vh-100" style="margin-top: 5rem;">
+        <form id="form2" runat="server">
 
-            .input {
-                margin-left: 300px;
-            }
-        </style>
-    </head>
+            <div class="card mb-3 shadow mb-5 fw-bold card-a mt-6">
 
-    <body style="background-color:black; height: 634px;">
-        <form id="form1" runat="server">
-            <div style="width: auto; background-color: #000000; margin-right: 34px; margin-left: 34px; margin-top: 15px; margin-bottom: 15px;"
-                class="container">
-                <div class="formulario">
-                    <label class="alineado"style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:30px;">familia</label><br />
-                    &nbsp;<input class="input" type="text" style="height: 45px; width: 138px; font-size:72px" />
-                    &nbsp;<input type="text" style="height: 45px; width: 536px; font-size:72px" />
+                <div class="card-header text-center">
+                    <h4 class="card-title fw-bold py-2 t-72">Sub Familia</h4>
                 </div>
-                <div class="formulario">
-                    <label class="alineado"style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'">Sub Familia</label><br />
-                    &nbsp;<input class="input" type="text" style="height: 45px; width: 138px; font-size:72px" />
-                    &nbsp;<input type="text" style="height: 45px; width: 534px; font-size:72px" />
+
+                <div class="card-body">
+                    <div class="row">
+                        <label class="col-form-label t-72">Familia</label>
+                        <div class="col-6 col-sm-3">
+                            <input type="text" class="form-control t-36" name="txtnombreinvitado2" />
+                        </div>
+                        <div class="col">
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control t-36" name="txtnombreinvitado" />
+                                <button class="btn btn-primary text-white shadow-sm rounded-end t-36 fw-bold" data-bs-toggle="modal" data-bs-target="#ModalEspecie" data-bs-placement="top" title="Agregar Especie" type="button">Buscar</button>
+
+                                <div class="modal fade" id="ModalEspecie" tabindex="-1" aria-labelledby="ModalEspecie" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title t-72">Especies</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body t-36">
+                                                ...
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn-cancelar t-36 fw-bold" data-bs-dismiss="modal">Cerrar</button>
+                                                <button type="button" class="btn-guardar t-36 fw-bold">Aceptar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-form-label t-72">Sub Familia</label>
+                        <div class="col-6 col-sm-3">
+                            <input type="text" class="form-control t-36" name="txtnombreinvitado2" />
+                        </div>
+                        <div class="col">
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control t-36" name="txtnombreinvitado" />
+                                <button class="btn btn-primary text-white shadow-sm rounded-end t-36 fw-bold" data-bs-toggle="modal" data-bs-target="#ModalTipoganado" data-bs-placement="top" title="Agregar proveedor" type="button">Buscar</button>
+
+                                <div class="modal fade" id="ModalTipoganado" tabindex="-1" aria-labelledby="ModalEspecie" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title t-72">Especies</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body t-36">
+                                                ...
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn-cancelar t-36 fw-bold" data-bs-dismiss="modal">Cerrar</button>
+                                                <button type="button" class="btn-guardar t-36 fw-bold">Aceptar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="col-form-label t-72">Status</label>
+                        <div class="col">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected></option>
+                                <option value="1">Activo</option>
+                                <option value="2">Cancelado</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" HeaderStyle-HorizontalAlign="Center" RowStyle-HorizontalAlign="Center" GridLines="None" Width="100%">
+                                <AlternatingRowStyle BackColor="White" />
+                                <Columns>
+                                    <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" SortExpression="ID" />
+                                    <asp:BoundField DataField="NOMBRE" HeaderText="NOMBRE" ReadOnly="True" SortExpression="NOMBRE" />
+                                    <asp:BoundField DataField="ESTATUS" HeaderText="ESTATUS" ReadOnly="True" SortExpression="ESTATUS" />
+                                </Columns>
+                                <EditRowStyle BackColor="#2461BF" />
+                                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#EFF3FB" />
+                                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                <SortedAscendingCellStyle BackColor="#F5F7FB" />
+                                <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+                                <SortedDescendingCellStyle BackColor="#E9EBEF" />
+                                <SortedDescendingHeaderStyle BackColor="#4870BE" />
+                            </asp:GridView>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-6 col-sm-4"></div>
+                        <div class="col">
+                            <button type="button" class="btn-nuevo t-36 fw-bold">Nuevo</button>
+                            <button type="button" class="btn-guardar t-36 fw-bold mx-1">Guardar</button>
+                            <button type="button" class="btn-editar t-36 fw-bold">Editar</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="formulario">
-                    <label class="alineado"style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI' ">Status</label><br />
-                    <select class="input" id="Select1" name="D1" style="height: 45px; width: 697px; font-size:72px">
-                        <option></option>
-                    </select>
-                </div>
-                <div class="formulario">
-                    <label class="alineado"style=" font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'" ;>Por. Tasa</label><br />
-                    <input class="input" type="number" style="height: 71px; width: 685px; font-size:72px" />
-                </div>
-            </div>
-            <br />
-            <div>
-                <asp:GridView ID="GridView1" runat="server" Width="1315px" style="margin-left:30px;margin-right:30px;"
-                    AutoGenerateColumns="False">
-                </asp:GridView>
-            </div>
-            <div
-                style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
-                <button type="button"
-                    style="font-size: 36px; font-weight: bold; border-radius:15px; color: #FFFFFF; width:180px; height: 110px; background-color: #00BFFF">Nuevo</button>
-                <button type="button"
-                    style="font-size: 36px; font-weight: bold; border-radius:15px; background-color: #32CD32; width:180px; height: 110px; color: #FFFFFF; margin-right: 10px; margin-left: 10px;">Guardar</button>
-                <button type="button"
-                    style="font-size: 36px; font-weight: bold; border-radius:15px; color: #FFFFFF; background-color: #FF8C00; width:180px; height: 110px; margin-right: 10px;">Editar</button>
             </div>
         </form>
-    </body>
-    </html>
+    </div>
+</body>
+</html>

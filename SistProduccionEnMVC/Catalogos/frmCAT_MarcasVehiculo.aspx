@@ -5,33 +5,65 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/styles.css" rel="stylesheet" />
+    <link href="../Content/styles.css" rel="stylesheet" />
+    <title>Familias</title>
 </head>
-<body style="background-color:black; height: 634px;">
-    <form id="form1" runat="server">
-    <div style="width: auto; background-color: #000000; margin-right: 34px; margin-left: 34px; margin-top: 15px; margin-bottom: 15px;" class="container">
-            <div>
-                <label style="font-size: 72px; color: #FFFFFF; font-family: 'Segoe UI'; margin-right:440px">Nombre</label><br />
-                &nbsp;<input type="text" style="height: 45px; width: 700px; font-size:72px"/><br />
+<body style="background-color: black">
+    <div class="d-flex justify-content-center align-items-center vh-100" style="margin-top: 5rem;">
+        <form id="form1" runat="server">
+
+            <div class="card mb-3 shadow mb-5 fw-bold card-a mt-6">
+
+                <div class="card-header text-center">
+                    <h4 class="card-title fw-bold py-2 t-72">Marcas Vehiculo</h4>
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+                        <label class="col-form-label t-72">Nombre</label>
+                        <div class="col">
+                            <input class="form-control t-36" type="text" />
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col">
+                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" HeaderStyle-HorizontalAlign="Center" RowStyle-HorizontalAlign="Center" GridLines="None" Width="100%">
+                                <AlternatingRowStyle BackColor="White" />
+                                <Columns>
+                                    <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" SortExpression="ID" />
+                                    <asp:BoundField DataField="NOMBRE" HeaderText="NOMBRE" ReadOnly="True" SortExpression="NOMBRE" />
+                                    <asp:BoundField DataField="ESTATUS" HeaderText="ESTATUS" ReadOnly="True" SortExpression="ESTATUS" />
+                                </Columns>
+                                <EditRowStyle BackColor="#2461BF" />
+                                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#EFF3FB" />
+                                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                <SortedAscendingCellStyle BackColor="#F5F7FB" />
+                                <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+                                <SortedDescendingCellStyle BackColor="#E9EBEF" />
+                                <SortedDescendingHeaderStyle BackColor="#4870BE" />
+                            </asp:GridView>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-6 col-sm-4"></div>
+                        <div class="col">
+                            <button type="button" class="btn-nuevo t-36 fw-bold">Nuevo</button>
+                            <button type="button" class="btn-guardar t-36 fw-bold mx-1">Guardar</button>
+                            <button type="button" class="btn-editar t-36 fw-bold">Editar</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-
-            <br />
-            <br />
-            <br />
-            <div style="margin-left:0px; margin-right:0px; width: 1389px;">
-
-                <asp:GridView ID="GridView1" runat="server" style="margin-right:30px; margin-left:30px" Height="274px" Width="1326px" >
-                </asp:GridView>
-
-            </div>
-
-            <div style="text-align: right; vertical-align: bottom; margin-top: 200px; height: 172px; padding-right: 20px;">
-                <button type="button" style="font-size: 36px; font-weight: bold; border-radius:15px; color: #FFFFFF; width:180px; height: 110px; background-color: #00BFFF">Nuevo</button>
-                <button type="button" style="font-size: 36px; font-weight: bold; border-radius:15px; background-color: #32CD32; width:180px; height: 110px; color: #FFFFFF; margin-right: 10px; margin-left: 10px;">Guardar</button>
-                <button type="button" style="font-size: 36px; font-weight: bold; border-radius:15px; color: #FFFFFF; background-color: #FF8C00; width:180px; height: 110px; margin-right: 10px;">Editar</button>
-            </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </body>
 </html>
