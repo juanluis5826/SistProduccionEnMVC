@@ -13,7 +13,7 @@
     <title>Familias</title>
 </head>
 <body style="background-color: black">
-    <div class="d-flex justify-content-center align-items-center vh-100" style="margin-top: 5rem;">
+    <div class="d-flex justify-content-center align-items-center">
         <form id="form1" runat="server">
 
             <div class="card mb-3 shadow mb-5 fw-bold card-a mt-6">

@@ -12,7 +12,7 @@
     <title>Prductos para Sala de Cortes</title>
 </head>
 <body style="background-color: black;">
-    <div class="d-flex justify-content-center align-items-center" style="margin-top: 5rem;">
+    <div class="d-flex justify-content-center align-items-center">
         <form id="form2" runat="server">
 
             <div class="card mb-3 shadow mb-5 fw-bold card-b mt-6">
@@ -163,7 +163,7 @@
                                 <div class="col">
                                     <label class="col-form-label t-36">MP</label>
                                 </div>
-\                            </div>
+                            </div>
 
                             <div class="row">
                                 <div class="col">

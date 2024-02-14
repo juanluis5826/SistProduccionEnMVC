@@ -14,7 +14,7 @@
     <title>Productos</title>
 </head>
 <body style="background-color:black;">
-    <div class="d-flex justify-content-center align-items-center" style="margin-top: 5rem;">
+    <div class="d-flex justify-content-center align-items-center"">
         <form id="form2" runat="server">
 
             <div class="card mb-3 shadow mb-5 fw-bold card-a mt-6">
@@ -159,7 +159,18 @@
                                 <Columns>
                                     <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" SortExpression="ID" />
                                     <asp:BoundField DataField="NOMBRE" HeaderText="NOMBRE" ReadOnly="True" SortExpression="NOMBRE" />
-                                    <asp:BoundField DataField="ESTATUS" HeaderText="ESTATUS" ReadOnly="True" SortExpression="ESTATUS" />
+                                    <asp:BoundField DataField="DIAS_CAD" HeaderText="DIAS_CAD" ReadOnly="True" SortExpression="ESTATUS" />
+                                    <asp:BoundField DataField="ID_REF" HeaderText="ID_REF"></asp:BoundField>
+                                    <asp:BoundField DataField="REFRIGERACION" HeaderText="REFRIGERACION"></asp:BoundField>
+                                    <asp:BoundField DataField="ID_ESPECIE" HeaderText="ID_ESPECIE"></asp:BoundField>
+                                    <asp:BoundField DataField="ESPECIE" HeaderText="ESPECIE"></asp:BoundField>
+                                    <asp:BoundField DataField="ID_FAM" HeaderText="ID_FAM"></asp:BoundField>
+                                    <asp:BoundField DataField="FAMILIA" HeaderText="FAMILIA"></asp:BoundField>
+                                    <asp:BoundField DataField="ID_SFAM" HeaderText="ID_SFAM"></asp:BoundField>
+                                    <asp:BoundField DataField="SUBFAMILIA" HeaderText="SUBFAMILIA"></asp:BoundField>
+                                    <asp:BoundField DataField="CUARTO" HeaderText="CUARTO"></asp:BoundField>
+                                    <asp:BoundField DataField="NOM_CEXP" HeaderText="NOM_CEXP"></asp:BoundField>
+                                    <asp:BoundField DataField="ESTATUS" HeaderText="ESTATUS"></asp:BoundField>
                                 </Columns>
                                 <EditRowStyle BackColor="#2461BF" />
                                 <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
